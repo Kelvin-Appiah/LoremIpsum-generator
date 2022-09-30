@@ -1,1 +1,51 @@
+.main {
+  text-align: center;
+  margin: 8rem 6rem;
+}
 
+.main label {
+  margin-right: 0.4rem;
+}
+
+.main input {
+  padding: 0.4rem;
+  border: none;
+  width: 4rem;
+  margin-right: 0.4rem;
+  border-radius: 0.3rem;
+  font-size: larger;
+}
+
+.main button {
+  padding: 0.65rem 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  border: none;
+  letter-spacing: 0.2rem;
+  margin-left: 0.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.main button:hover {
+  color: hsl(285, 100%, 95%);
+  background-color: #000;
+}
+
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.spacing {
+  letter-spacing: 0.2rem;
+}
+
+.paragraphContainer {
+  box-shadow: 1px 2px 3px rgb(87, 54, 87);
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
